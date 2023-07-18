@@ -14,6 +14,8 @@ body {
     background-color: #fff;
 }
 
+/* Header/Nav */
+
 header {
     display: flex;
     align-items: center;
@@ -40,8 +42,8 @@ header {
 .botoes button{
     background-color: #8E2424;
     color: #fff;
-    padding: 12px 18px;
-    font-size: 18px;
+    padding: 10px 18px;
+    font-size: 16px;
     border-radius: 8px;
     border: none;
     font-weight: lighter;
@@ -50,6 +52,8 @@ header {
 .botoes button:hover {
     background-color: #f79191;
 }
+
+/* Sobre nos */
 
 .sobrenos {
     display: flex;
@@ -74,15 +78,297 @@ header {
     font-size: 48px;
     font-style: normal;
     font-weight: 600;
-    line-height: 60px; /* 125% */
+    line-height: 60px; 
     letter-spacing: -0.96px;
 }
 
 .subtitulo {
     padding-top: 30px;
     color: #667085;
+    text-align: center;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 150% */
+    line-height: 30px; 
+}
+
+/* Metrics */
+
+.metrics {
+    display: flex;
+    justify-content: space-between;
+    min-height: 300px;
+    padding: 0px 180px;
+    padding-bottom: 96px;
+}
+
+.metric-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    max-width: 300px;
+    align-items: baseline;
+}
+
+.metric-card span {
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px; /* 120% */
+    letter-spacing: -1.2px;
+    color: #8E2424;
+}
+
+.title-card {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    color: #101828;
+}
+
+.metric-card p {
+    color: #667085;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* Vagas */
+
+.vagas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 0px 0px 0px;
+}
+
+.talentos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.talentos h3 {
+    display: flex;
+    padding: 4px 12px;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+
+    color: #8E2424;
+    background-color: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+}
+
+.talentos h1 {
+    color: #101828;
+    padding-top: 16px;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px; 
+    letter-spacing: -0.72px;
+}
+
+.talentos p {
+    color: #667085;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.img {
+    padding: 64px 0px;
+    min-height: 400px;
+    min-width: 1216px;
+}
+
+/* Cargos */
+
+.cargos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cargos h1 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    color: #101828;
+}
+
+.cargos div h1 {
+    display: flex;
+    align-items: flex-start;
+    width: 800px;
+    padding-bottom: 6px;
+}
+
+.dev {
+    padding: 6px 0px 6px 0px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 24px 28px 24px;
+    width: 800px;
+    margin: 24px;
+    gap: 32px;
+
+    border-radius: 16px;
+    border: 1px solid #EAECF0;
+    background:  #FFF;
+}       
+
+.box h3 {
+    color: #101828;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.box p {
+    color: #667085;
+}
+
+.box p span {
+    padding-right: 24px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+/* Depoimento */
+
+.depoiment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: rgba(195, 25, 25, 0.03);
+    padding: 64px;
+    margin: 3rem 3rem;
+    border-radius: 16px;
+}
+
+.depoiment h3 {
+    color: #8E2424;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    padding-bottom: 16px;
+}
+
+.depoiment h1 {
+    text-align: center;
+    color: #101828;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px; /* 122.222% */
+    letter-spacing: -0.72px;
+
+}
+
+.imagem {
+    padding-top: 32px;
+    width: 56px;
+}
+
+div h2 {
+    padding-top: 16px;
+    color: #101828;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+div p {
+    color: #667085;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+/* Formulário */
+
+.formulario {
+    background-color: #F9FAFB;
+    height: 430px;
+    padding: 96px 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.formulario h1 {
+    font-size: 36px;
+    color: #101828;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px; /* 122.222% */
+    letter-spacing: -0.72px;
+    padding-bottom: 20px;
+}
+
+.subt {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    color: #667085;
+}
+
+form {
+    display: flex;
+    padding: 40px 14px 32px 16px;
+    align-items: center;
+    gap: 16px;
+}
+
+#email {
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    background: #FFF;
+    width: 360px;
+    height: 50px;
+    padding-left: 20px;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+
+.button {
+    background-color: #8E2424;
+    color: #fff;
+    border: none;
+    padding: 15px 24px;
+    border-radius: 16px;
+    font-size: 16px;
+}
+
+.footer-text {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+    color: #98A2B3;
 }
