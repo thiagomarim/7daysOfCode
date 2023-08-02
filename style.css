@@ -373,3 +373,7 @@ form {
 
     color: #98A2B3;
 }
+
+#btn-mobile {
+    display: none;
+}
